@@ -389,7 +389,7 @@ if st.session_state.analysis_result:
         auth_data = ml_eval.get("authenticity", {})
         urg_data = ml_eval.get("urgency", {})
 
-        st.markdown("#### 🤖 Machine Learning Intelligence *(Logistic Regression)*")
+        #st.markdown("#### 🤖 Machine Learning Intelligence *(Logistic Regression)*")
         ml_col1, ml_col2 = st.columns(2)
 
         with ml_col1:
@@ -410,7 +410,7 @@ if st.session_state.analysis_result:
                     <span style="font-size: 0.92rem; font-weight: 600; color: #334155;">{verdict}</span>
                 </div>
                 <div style="font-size: 0.8rem; color: #64748B; margin-bottom: 0.5rem;">
-                    Model: <strong>NLP TF-IDF + Logistic Regression</strong>
+                 
                 </div>
                 <div style="font-size: 0.85rem; color: #475569;">
                     <strong>Detected Signals:</strong>
@@ -440,7 +440,7 @@ if st.session_state.analysis_result:
                     <span style="font-size: 0.92rem; font-weight: 600; color: #334155;">{urg_level}</span>
                 </div>
                 <div style="font-size: 0.8rem; color: #64748B; margin-bottom: 0.5rem;">
-                    Model: <strong>Tabular Features + Logistic Regression</strong>
+                   
                 </div>
                 <div style="font-size: 0.85rem; color: #475569;">
                     <strong>Risk Drivers:</strong>
