@@ -410,7 +410,7 @@ if st.session_state.analysis_result:
                     <span style="font-size: 0.92rem; font-weight: 600; color: #334155;">{verdict}</span>
                 </div>
                 <div style="font-size: 0.8rem; color: #64748B; margin-bottom: 0.5rem;">
-                 
+                 Model:
                 </div>
                 <div style="font-size: 0.85rem; color: #475569;">
                     <strong>Detected Signals:</strong>
@@ -440,7 +440,7 @@ if st.session_state.analysis_result:
                     <span style="font-size: 0.92rem; font-weight: 600; color: #334155;">{urg_level}</span>
                 </div>
                 <div style="font-size: 0.8rem; color: #64748B; margin-bottom: 0.5rem;">
-                   
+                  Model: 
                 </div>
                 <div style="font-size: 0.85rem; color: #475569;">
                     <strong>Risk Drivers:</strong>
